@@ -16,24 +16,17 @@ function NavTabs() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link to="/" className={location.pathname === "/work" ? "nav-link active" : "nav-link"}>
-              Work
+            <Link
+              to="/projects" className={location.pathname === "/projects" ? "nav-link active" : "nav-link"}>
+              Projects
             </Link>
           </li>
           <li className="nav-item">
             <Link
               to="/about"
-              className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+              className={location.pathname === "/" ? "nav-link active" : "nav-link"}
             >
               About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contact"
-              className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
             </Link>
           </li>
         </ul>

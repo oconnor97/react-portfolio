@@ -15,7 +15,7 @@ const Footer = () => {
 
         <footer class="footer" style={divStyle}>
             <div class="container">
-                <span class="text-muted">Place sticky footer content here.</span>
+                <span class="text-muted">Created by Michael O'Connor. © 2021</span>
             </div>
         </footer>
 

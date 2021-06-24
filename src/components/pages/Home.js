@@ -1,20 +1,51 @@
 import React from "react";
 
+
+
+
 function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-        ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-        elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-        malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+    <div style={{ backgroundColor: "#008080", textAlign: 'center' }}>
+      <p style={{ color: "white" }}> My name is Michael O'Connor and I am a 28 year old Junior Developer from Columbus, Ohio.  I have a passion for continued growth and being in a field that is always growing.</p>
+      <p style={{ color: "white" }}>My previous background was in the printing industry where I wrote programs for machinery and solved problems to make the company more efficient.  I love music and it is my goal to find job that allows me to work around the music industry while programming! </p>
+
+      <h3> Skills </h3>
+      <div class="row" style={{ marginTop: "5rem", padding: '5rem' }}>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"> Front-end</h5>
+              <ul class="list-group">
+                <li class="list-group-item">HTML</li>
+                <li class="list-group-item">CSS</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">jQuery</li>
+                <li class="list-group-item">Nodejs</li>
+                <li class="list-group-item">Reactjs</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Back-end</h5>
+              <ul class="list-group">
+                <li class="list-group-item">mySQL</li>
+                <li class="list-group-item">MongoDb</li>
+                <li class="list-group-item">Express</li>
+                <li class="list-group-item">Nodejs</li>
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+
   );
 }
 
