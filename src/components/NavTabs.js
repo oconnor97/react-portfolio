@@ -29,6 +29,10 @@ function NavTabs() {
               About
             </Link>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Resume/Resume.pdf" target="_blank" download="MichaelO_resume">Resume</a>
+          </li>
+
         </ul>
       </div>
     </nav>

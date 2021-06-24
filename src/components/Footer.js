@@ -15,7 +15,9 @@ const Footer = () => {
 
         <footer class="footer" style={divStyle}>
             <div class="container">
-                <span class="text-muted">Created by Michael O'Connor. © 2021</span>
+                <a href="https://www.linkedin.com/in/michael-o-connor-b79005200/" target='_blank '>LinkedIn</a>
+                <a href="https://github.com/oconnor97" target='_blank ' style={{ marginLeft: '2rem' }}>Github</a>
+                <a href="mailto: moconnor0813@gmail.com" style={{ marginLeft: '2rem' }}>Email</a>
             </div>
         </footer>
 
