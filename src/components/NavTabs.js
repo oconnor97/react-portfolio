@@ -30,7 +30,7 @@ function NavTabs() {
             </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./Resume/Resume.pdf" target="_blank" download="MichaelO_resume">Resume</a>
+            <a class="nav-link" href="../Resume/Resume.pdf" target="_blank" download="MichaelO_resume">Resume</a>
           </li>
 
         </ul>
